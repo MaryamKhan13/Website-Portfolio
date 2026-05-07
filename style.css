@@ -2,15 +2,15 @@
 /*body: Sets the global font, a light grey background, and removes default browser margins to ensure the site fills the screen edge-to-edge.*/
 body { 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    background: #b9e4eb; 
+    background: hwb(188 72% 8%); 
     margin: 0; 
     color: #2f09a100; 
 }
 
 /* --- Hero Section: This is the top banner of your site. It uses a sage green background (#8eaca8), centers the text, and provides ample padding for a bold introduction. */
 .hero {
-    background: #04a3ed;
-    color: white;
+    background: hwb(0 98% 2%); ;
+    color:hwb(188 72% 8%) ;
     text-align: center;
     padding: 60px 20px 100px 20px;
 }
@@ -24,10 +24,10 @@ body {
 
 /* --- Card Base Styles: .card: Defines the white "boxes" you see on your site. It uses border-radius for rounded corners and box-shadow to give them depth, making them look like floating elements. */
 .card {
-    background: rgba(5, 190, 231, 0.507);
+    background: hwb(188 72% 8%); ;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0);
+    box-shadow: 0 10px 30px hwb(0 100% 0%);
     margin-bottom: 20px;
 }
 
@@ -49,7 +49,7 @@ body {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 40px rgba(231, 6, 6, 0.2);
+    box-shadow: 0 15px 40px hwb(0 99% 1%); ;
     cursor: pointer;
 }
 
@@ -60,14 +60,14 @@ body {
     object-fit: cover;
     border-radius: 8px;
     margin-top: 15px;
-    border: 1px solid #eee;
+    border: 1px solid hwb(188 72% 8%);
 }
 
 /* --- Button --- */
 .btn {
     display: inline-block;
     background: #fff;
-    color: #8eaca8;
+    color: hwb(188 72% 8%); ;
     padding: 10px 25px;
     border-radius: 5px;
     text-decoration: none;
@@ -78,16 +78,16 @@ body {
 .documentation-card {
     display: block;
     text-decoration: none;
-    color: #333;
-    background: #fdfdfd;
-    border-left: 5px solid #8eaca8; /* Adds a nice accent bar */
+    color: #4e90d7;
+    background: hwb(188 72% 8%);
+    border-left: 5px solid hwb(0 100% 0%); ; /* Adds a nice accent bar */
     transition: all 0.3s ease;
 }
 
 .documentation-card:hover {
-    background: #f9f9f9;
+    background: hwb(188 72% 8%);
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px #4e90d7;
 }
 
 /* Styling for the internal button */
@@ -95,19 +95,19 @@ body {
     display: inline-block;
     margin-top: 15px;
     padding: 8px 16px;
-    background: #8eaca8;
-    color: white;
+    background: hwb(0 100% 0%);
+    color: hwb(188 72% 8%);
     border-radius: 5px;
     font-size: 0.9rem;
     font-weight: bold;
 }
 /* Special styling for the Final Project card */
 .final-project {
-    border: 2px solid #8eaca8; /* Adds a colored border */
-    background: #fdfdfd;      /* Slightly different background */
+    border: 2px solid hwb(0 100% 0%); /* Adds a colored border */
+    background: hwb(188 72% 8%);      /* Slightly different background */
 }
 
 .final-project h3 {
-    color: #8eaca8; /* Matches your header color */
+    color: hwb(0 100% 0%); /* Matches your header color */
 }
 
