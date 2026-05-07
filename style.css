@@ -9,8 +9,8 @@ body {
 
 /* --- Hero Section: This is the top banner of your site. It uses a sage green background (#8eaca8), centers the text, and provides ample padding for a bold introduction. */
 .hero {
-    background: hwb(0 98% 2%); ;
-    color:hwb(188 72% 8%) ;
+    background: hwb(188 72% 8%); ;
+    color:hwb(0 97% 3%) ;
     text-align: center;
     padding: 60px 20px 100px 20px;
 }
