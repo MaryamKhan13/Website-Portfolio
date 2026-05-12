@@ -95,7 +95,7 @@ body {
     display: inline-block;
     margin-top: 15px;
     padding: 8px 16px;
-    background: #8eaca8;
+    background: #13a7e1;
     color: white;
     border-radius: 5px;
     font-size: 0.9rem;
@@ -103,12 +103,12 @@ body {
 }
 /* Special styling for the Final Project card */
 .final-project {
-    border: 2px solid #8eaca8; /* Adds a colored border */
+    border: 2px solid #13a7e1; /* Adds a colored border */
     background: #fdfdfd;      /* Slightly different background */
 }
 
 .final-project h3 {
-    color: #8eaca8; /* Matches your header color */
+    color: #13a7e1; /* Matches your header color */
 }
 
 
