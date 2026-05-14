@@ -18,7 +18,7 @@ body {
 /* --- Layout Containerhis acts as a wrapper that constrains the width of your main content to 900px, centering it on the screen. The negative margin (margin: -50px auto 50px auto) creates a "lifted" effect, making the white content cards overlap the hero section slightly for a modern look. */
 .container {
     max-width: 900px;
-    margin: -50px auto 50px auto;
+    margin: 50px auto 50px auto;
     padding: 0 20px;
 }
 
